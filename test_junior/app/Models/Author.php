@@ -8,14 +8,19 @@ use Illuminate\Database\Eloquent\Model;
 
 class Author extends Model
 {
-    use HasFactory,CrudTrait;
+    use HasFactory, CrudTrait;
 
 //    protected $fillable = ['name'];
     protected $table = 'authors';
-    protected $guarded=[];
+    protected $guarded = [];
 
     public function books()
     {
         return $this->belongsToMany(Book::class, 'author_books', 'author_id', 'book_id');
+    }
+
+    public function authorBooks()
+    {
+        return $this->belongsTo(Book::class, 'book_id', 'id');
     }
 }

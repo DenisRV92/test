@@ -16,3 +16,11 @@ class BookController extends Controller
         return view('books', compact('books'));
     }
 }
+//'label' => 'name author',
+//            'type' => 'select2_multiple',
+//            'name' => 'authors',
+//            'entity' => 'authors',
+//            'attribute' => 'name',
+//            'pivot' => true,
+//
+//            'model' => 'App\Models\Author',
