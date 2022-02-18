@@ -3,13 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="da59c079-a322-48c0-bda9-f5b9c9c6cbcc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_junior/app/Http/Controllers/Admin/AdminAuthorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_junior/app/Http/Controllers/Admin/AdminAuthorController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_junior/app/Http/Controllers/Admin/AdminBookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_junior/app/Http/Controllers/Admin/AdminBookController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_junior/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_junior/app/Http/Controllers/BookController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_junior/app/Models/Author.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_junior/app/Models/Author.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_junior/app/Models/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_junior/app/Models/Book.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_junior/database/migrations/2022_01_16_163917_create_authors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_junior/database/migrations/2022_01_16_163917_create_authors_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_junior/database/migrations/2022_01_18_090130_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_junior/database/migrations/2022_01_18_090130_create_books_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/База данных/test" beforeDir="false" afterPath="$PROJECT_DIR$/База данных/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_junior/resources/views/books.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_junior/resources/views/books.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_junior/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_junior/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_junior/routes/backpack/custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_junior/routes/backpack/custom.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,6 +195,8 @@
       <workItem from="1643565733120" duration="5075000" />
       <workItem from="1643613946869" duration="1015000" />
       <workItem from="1644579311054" duration="250000" />
+      <workItem from="1644579830282" duration="16000" />
+      <workItem from="1645169562468" duration="10702000" />
     </task>
     <servers />
   </component>
@@ -200,10 +204,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1643615026741">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1644579848841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1643615026741" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1644579848841" />
     <state x="673" y="243" key="NewPhpClassDialog" timestamp="1643190909889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

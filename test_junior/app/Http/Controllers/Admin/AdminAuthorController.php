@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\AdminAuthorRequests;
 use App\Models\Book;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Illuminate\Http\Request;
@@ -18,12 +19,9 @@ class AdminAuthorController extends CrudController
     public function setup()
     {
         $this->crud->setModel("App\Models\Author");
-        $this->crud->setRoute("admin/adminauthor");
+        $this->crud->setRoute("admin/author");
         $this->crud->setEntityNameStrings('author', 'authors');
-//        $books = $this->books();
-//        $this->crud->setColumns([
-//            'label' => 'родительская категория'
-//        ]);
+
     }
     public function setupListOperation()
     {
@@ -32,7 +30,7 @@ class AdminAuthorController extends CrudController
 
     public function setupCreateOperation()
     {
-//        $this->crud->setValidation(TagCrudRequest::class);
+        $this->crud->setValidation(AdminAuthorRequests::class);
 
         $this->crud->addField([
             'name' => 'name',
@@ -46,13 +44,5 @@ class AdminAuthorController extends CrudController
     {
         $this->setupCreateOperation();
     }
-//    private function books()
-//    {
-//        $books = (new Book())->get();
-//        $responce = [];
-//        foreach ($books as $book) {
-//            $responce[$book->id] = $book->name;
-//        }
-//        return $responce;
-//    }
+
 }
